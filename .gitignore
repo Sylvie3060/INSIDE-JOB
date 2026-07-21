@@ -1,0 +1,14 @@
+# Dependencies and framework output
+node_modules/
+.next/
+out/
+
+# Local development files
+*.log
+.env*
+!.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
