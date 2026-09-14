@@ -22,7 +22,7 @@ const json = (body: unknown, status = 200) =>
 
 const schemas = {
   profile: `{
-    "name":"用户姓名或同学","summary":"80字以内的工作行为总结","traits":["能力倾向1","能力倾向2","能力倾向3","能力倾向4"],
+    "summary":"直接使用第二人称‘你’表述的80字以内工作行为总结","traits":["能力倾向1","能力倾向2","能力倾向3","能力倾向4"],
     "capabilities":[{"name":"问题分析能力","score":0到100整数,"level":"高/中/待发展","reason":"原因","evidence":["输入中的证据"]}],
     "risks":[{"title":"风险标题","description":"具体且非评判性的说明","suggestion":"行动建议"}],
     "directions":[{"name":"职业方向","match":0到100整数,"reason":"匹配原因"}]
